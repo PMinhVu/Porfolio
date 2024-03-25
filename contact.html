@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Lab 1</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar__list">
+          <li class="navbar__item"><a href="index.html">HOME</a></li>
+          <li class="navbar__item"><a href="myresume.html">RESUME</a></li>
+          <li class="navbar__item"><a href="schedule-meeting.html">BOOKING</a></li>
+          <li class="navbar__item"><a href="./tech-page/tech-stack.html">SKILLS</a></li>
+          <li class="navbar__item"><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container contact-form">
+        <div class="form-container">
+          <div class="left-container">
+            <div class="left-inner-container">
+              <h2>Let's Chat</h2>
+              <p>
+                Whether you have a question, want to start a project or simply
+                want to connect.
+              </p>
+              <br />
+              <p>Feel free to send me a message in the contact form</p>
+            </div>
+          </div>
+          <div class="right-container">
+            <div class="right-inner-container">
+              <form action="https://formspree.io/f/xyyrdqgo" method="POST">
+                <h2 class="lg-view">Contact</h2>
+                <h2 class="sm-view">Let's Chat</h2>
+                <p>* Required</p>
+                <div class="social-container">
+                  <a href="#" class="social"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="social"
+                    ><i class="fab fa-google-plus-g"></i
+                  ></a>
+                  <a href="#" class="social"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+                <div class="inputBox">
+                  <input id="name" name="name" type="text" placeholder="Name *" required/>
+                  <input name="email" type="email" placeholder="Email *" required/>
+                  <input name="company" type="text" placeholder="Company" />
+                  <input name="phone" type="phone" placeholder="Phone" required/>
+                  <textarea rows="4" placeholder="Message"></textarea>
+                </div>
+
+                <button>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© Copyright PhamMinhVu. Design And Developed By PhamMinhVu</p>
+      </div>
+    </footer>
+  </body>
+</html>
