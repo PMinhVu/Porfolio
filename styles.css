@@ -309,3 +309,9 @@ form p {
   padding: 2rem 2rem;
   margin: 0;
 }
+.footer p {
+  text-align: center;
+  color: #5d5d5d;
+  padding: 2rem 2rem;
+  margin: 0;
+}
